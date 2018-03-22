@@ -23,6 +23,6 @@ spec:
     spec:
       restartPolicy: Never
       containers:
-      - name: pre-upgrade-job
+      - name: pre-hook-job
         image: "alpine:3.3"
         command: ["/bin/echo", "pre hook run"]

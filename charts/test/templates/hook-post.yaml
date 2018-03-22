@@ -23,6 +23,6 @@ spec:
     spec:
       restartPolicy: Never
       containers:
-      - name: post-upgrade-job
+      - name: post-hook-job
         image: "alpine:3.3"
         command: ["/bin/echo", "post hook run"]
